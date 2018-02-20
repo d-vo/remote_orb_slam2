@@ -1,3 +1,18 @@
+# Remote ORB-SLAM2
+
+This repository contains an implementation of the feature compression used in: 
+
+ D. Van Opdenbosch, M. Oelsch, A. Garcea, T. Aykut, E. Steinbach  
+**Selection and Compression of Local Binary Features for Remote Visual SLAM**  
+*IEEE International Conference on Robotics and Automation (ICRA)*  
+Brisbane, Australia, Mai 2018  
+
+Use the build.sh and build_ros_compress.sh to build everything (tested on Ubuntu 16.04 with all dependencies for ORB-SLAM2 + ROS installed). 
+Example files can be found in Examples/ROS/compression. The vocabulary and the statistics for the feature coding can be found in the /Vocabulary/ folder.
+
+This software comes with absolutely no warranty. This is an early research version and comes as is. Any known dependencies are listed in the files. 
+
+
 # ORB-SLAM2
 **Authors:** [Raul Mur-Artal](http://webdiis.unizar.es/~raulmur/), [Juan D. Tardos](http://webdiis.unizar.es/~jdtardos/), [J. M. M. Montiel](http://webdiis.unizar.es/~josemari/) and [Dorian Galvez-Lopez](http://doriangalvez.com/) ([DBoW2](https://github.com/dorian3d/DBoW2))
 
