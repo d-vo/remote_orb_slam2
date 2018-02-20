@@ -1,0 +1,10 @@
+<package>
+  <description brief="ORB_SLAM2_COMPRESSION">
+     ORB_SLAM2_COMPRESSION
+  </description>
+  <author>Dominik Van Opdenbosch</author>
+  <license></license>
+  <depend package="roscpp"/>
+  <build_depend>message_generation</build_depend>
+  <run_depend>message_runtime</run_depend>
+</package>
